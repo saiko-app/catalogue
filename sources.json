@@ -1,0 +1,200 @@
+{
+  "format": "saiko.catalogue.sources.v1",
+  "updated": "2026-11-11",
+  "releaseStatus": "No data releases or assets published",
+  "policy": "Distribute as much reference data as applicable terms allow. TripSit is included under its own terms, with full credit and backlink. Exclude explicit prohibitions, the WHO 2-FDCK candidate and permission-only content without written permission. Preserve scientific holds and unknowns separately from redistribution rights.",
+  "sources": [
+    {
+      "id": "psychonautwiki-api",
+      "name": "PsychonautWiki contributors, structured API",
+      "url": "https://api.psychonautwiki.org/",
+      "licence": "CC-BY-4.0",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Names, classes, explicit route dose and duration ranges.",
+      "conditions": "Retain source links, changes, field locators and unknown matched wiki revision. Do not include article media or infer specified forms.",
+      "revision": "Retrieved 2026-10-28; matched wiki revisions unknown"
+    },
+    {
+      "id": "psychonautwiki-drafts",
+      "name": "PsychonautWiki contributors, wiki drafts",
+      "url": "https://psychonautwiki.org/wiki/Copyrights",
+      "licence": "CC-BY-SA-4.0",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Selected explicit draft ranges and confirmed identities.",
+      "conditions": "Retain share-alike, article revisions, draft/unreviewed state and changes. TripSit-origin material retains TripSit terms; Erowid-attributed material without permission is excluded.",
+      "revision": "Retrieved 2026-10-29; article-specific revisions"
+    },
+    {
+      "id": "tripsit",
+      "name": "TripSit",
+      "url": "https://github.com/TripSit/drugs",
+      "licence": "LicenseRef-TripSit-NonCommercial",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Drug and combination data, including separately attributed range projections.",
+      "conditions": "Included in planned releases as separate removable files. Non-commercial use; credit TripSit and link https://combo.tripsit.me/ wherever shown. Include quick-overview/reference and individual-research notice. Preserve upstream information; describe packaging/index/unit changes. Commercial reuse and donations require their own review.",
+      "revision": "83670cb6bc8863615fcb9be081c87f061b42dea4"
+    },
+    {
+      "id": "wikidata",
+      "name": "Wikidata contributors",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+      "licence": "CC0-1.0",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Structured entities, identifiers, corroborated aliases and reading links.",
+      "conditions": "Linked article text/media have separate rights. Preserve entity revisions, references and derivative lineage.",
+      "revision": null
+    },
+    {
+      "id": "chebi",
+      "name": "ChEBI, EMBL-EBI and contributors",
+      "url": "https://www.ebi.ac.uk/chebi/about",
+      "licence": "CC-BY-4.0",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Selected names, formulae, structures and classes.",
+      "conditions": "Attribute ChEBI/EMBL-EBI/contributors; retain versions, hashes, changes and any third-party rights. Chemical class does not establish human dose.",
+      "revision": null
+    },
+    {
+      "id": "dosewiki",
+      "name": "dose.wiki",
+      "url": "https://www.dose.wiki/docs/license",
+      "licence": "CC0-1.0 for publisher contributions only",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Publisher contributions, compilation and normalization with underlying rights retained.",
+      "conditions": "Publish permitted fields under all applicable source terms. CC0 does not relicense TripSit, PsychonautWiki or permission-only material. Keep origin explicit; do not use numerical agreement as licence evidence.",
+      "revision": null
+    },
+    {
+      "id": "dailymed-facts",
+      "name": "Labeler and National Library of Medicine, NIH, HHS",
+      "url": "https://www.nlm.nih.gov/web_policies.html#copyright",
+      "licence": "Factual projection; third-party exclusions apply",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Original factual summaries with exact label/product/section/version and warning context.",
+      "conditions": "No blanket public-domain claim for manufacturer prose or media. Preserve labeler lineage, limitations and no endorsement. In-use company-submitted SPL does not itself establish FDA approval.",
+      "revision": null
+    },
+    {
+      "id": "openfda-ndc",
+      "name": "FDA and original submitting sources",
+      "url": "https://open.fda.gov/license/",
+      "licence": "CC0-1.0 except marked third-party exclusions",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Eligible factual product/package identifiers, names, ingredients, strength, form and route.",
+      "conditions": "Exclude or separately clear marked third-party content, including GMDN. Preserve retrieval/revision and labeler lineage. NDC listing is not approval; labelled strength is not a dose recommendation.",
+      "revision": null
+    },
+    {
+      "id": "bdpm",
+      "name": "Base de données publique des médicaments",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+      "licence": "Etalab Open Licence, exact file/version applies",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Eligible factual medicine identity/product fields.",
+      "conditions": "Retain credited public authorities, source, update date and file-specific licence/conditions; do not imply official endorsement.",
+      "revision": null
+    },
+    {
+      "id": "pubchem",
+      "name": "PubChem and contributing sources",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/docs/copyright",
+      "licence": "Per-field source terms",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Permitted factual identity fields.",
+      "conditions": "Preserve contributor lineage and rights. PubChem aggregation does not relicense third-party works.",
+      "revision": null
+    },
+    {
+      "id": "primary-literature",
+      "name": "Credited authors and publishers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/about/copyright/",
+      "licence": "Per-work licence",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Eligible factual claims or permitted extracts from primary literature.",
+      "conditions": "Use applicable CC0, CC BY or individually permitted works. Retain exact edition, locator, scope and rights. An index listing is not permission.",
+      "revision": null
+    },
+    {
+      "id": "pihkal-tihkal",
+      "name": "Alexander and Ann Shulgin",
+      "url": "https://www.erowid.org/library/books_online/pihkal/pihkal.shtml",
+      "licence": "Work-specific notices and non-commercial conditions",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Only permitted per-substance excerpts close to original wording.",
+      "conditions": "Retain exact Shulgin notices, source and changes. This exception does not grant reuse of Erowid dose charts. No payload is present.",
+      "revision": null
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia contributors",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+      "licence": "CC-BY-SA-4.0 with applicable exceptions",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Permitted article text where included.",
+      "conditions": "Retain contributor attribution, exact article revision, source link, share-alike and changes. Reading links do not imply imported text.",
+      "revision": null
+    },
+    {
+      "id": "samhsa",
+      "name": "SAMHSA and credited authors",
+      "url": "https://www.samhsa.gov/",
+      "licence": "Publication-specific conditions",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Permitted manual content with its original notices.",
+      "conditions": "Retain edition-specific rights and no-distribution-for-a-fee conditions where applicable. No blanket right over contributed works.",
+      "revision": null
+    },
+    {
+      "id": "other-eligible-sources",
+      "name": "Credited original providers",
+      "url": null,
+      "licence": "Per-item terms",
+      "status": "planned",
+      "publishedAssets": [],
+      "scope": "Other sources allowed by their actual applicable terms.",
+      "conditions": "Retain exact provenance, licence and applicability; publication permissions do not promote scientific review status. No data is included by this registry alone.",
+      "revision": null
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "who-2fdck",
+      "name": "WHO 2-FDCK quarantined candidate",
+      "status": "excluded",
+      "reason": "Explicit exclusion. Quarantine remains private; no excerpts or adaptations exported."
+    },
+    {
+      "id": "permission-only",
+      "name": "Permission-only material",
+      "status": "excluded_without_written_permission",
+      "providers": [
+        "Erowid (except separately permitted Shulgin work excerpts)",
+        "Jellinek",
+        "Trimbos reports",
+        "DIMS",
+        "Unity",
+        "Saferparty",
+        "Energy Control",
+        "checkit!",
+        "NHS SPS",
+        "DrugBank",
+        "Pyrls"
+      ],
+      "reason": "Links only without an applicable written grant. Public availability, a mirror, another app or a permission request is not a grant."
+    }
+  ]
+}
